@@ -9,9 +9,9 @@
     box-sizing: border-box;
   }
   :focus,:active{outline: none;}
-  a:focus,a:active{outline: none;}
+  a:focus,a:active{outline:invert;}
   
-  nav,footer,header,aside{display: block;}
+  nav,footer,header,aside{display: block; font-family: "MyriadProBold"; font-size: 17px;}
   
   html,body{
     height: 100%;
@@ -28,42 +28,41 @@
   input::-ms-clear{display: none;}
   button{cursor: pointer;}
   button::-moz-focus-inner {padding:0;border:0;}
-  a, a:visited{text-decoration: none;}
+  a, a:visited{text-decoration:overline; color: black;}
   a:hover{text-decoration: none;}
   ul li{list-style: none;}
   img{vertical-align: top;}
   
   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
+ footer,header{
+    display: flex;
+	flex-direction:row;
+    justify-content: space-around;
+ }
+
 .menu {
-    background: darkseagreen;
+    background: rgb(80, 185, 80);
     width: 100%;
     height: 100px;
-    display: grid;
-	grid-template-areas:
-	"picture premium contacts profile search";
-	grid-gap: 8px;
-	justify-items: left;
 }
-.logo{
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-left: 0px;
-   margin-right: 100px;
-   cursor: pointer;
-   width: 150px;
-   height: 100px;
+
+.logotype{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px; 
+    cursor: pointer;
+    width: 58px;
+    height: 70px;
 }
-.menu .logo{
-    float: left;
+.searching{
+    width: 15px;
+    height: 15px;
 }
-.name{
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-}
+
 .menu-block{
-    margin: 35px 0px 0px 0px;
+    margin: 42px 0px 0px 0px;
     padding-left: 0px;
     cursor: pointer;
 }
@@ -72,15 +71,27 @@
     height: 700px;
 }
 .help {
-    background: darkseagreen;
+    background: rgb(80, 185, 80);
     width: 100%;
     height: 300px;
-    display: grid;
-	grid-template-areas:
-	"help faq";
-	grid-gap: 10px;
-	justify-items:center;
+    
 }
 .help-block{
     cursor: pointer;
+}
+.nolineref
+{
+    text-decoration: none;
+}
+
+
+
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
