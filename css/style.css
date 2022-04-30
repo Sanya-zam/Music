@@ -11,6 +11,7 @@
   :focus,:active{outline: none;}
   a:focus,a:active{outline:invert;}
   
+  
   nav,footer,header,aside{display: block; font-family: "MyriadProBold"; font-size: 17px;}
   
   html,body{
@@ -29,7 +30,7 @@
   button{cursor: pointer;}
   button::-moz-focus-inner {padding:0;border:0;}
   a, a:visited{text-decoration:overline; color: black;}
-  a:hover{text-decoration: none;}
+  a:hover{text-decoration:none;}
   ul li{list-style: none;}
   img{vertical-align: top;}
   
@@ -40,6 +41,26 @@
 	flex-direction:row;
     justify-content: space-around;
  }
+
+
+
+ .standardref:hover{
+     color:dimgrey;
+ }
+ .standardref:active{
+     color: bisque;
+ }
+ .activeref, .activeref:hover{
+    text-decoration: none;
+    color: dimgrey;
+ }
+ .activeref:active{
+    color: bisque;
+ }
+.nolineref{
+    text-decoration: none;
+    
+}
 
 .menu {
     background: rgb(80, 185, 80);
@@ -77,14 +98,13 @@
     
 }
 .help-block{
+    padding-top: 15px;
     cursor: pointer;
 }
-.nolineref
-{
-    text-decoration: none;
+
+.font-community{
+    font-family: "MyriadProItalic";
 }
-
-
 
 @font-face {
     font-family: "MyriadProBold";
@@ -92,6 +112,24 @@
     src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
     url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
