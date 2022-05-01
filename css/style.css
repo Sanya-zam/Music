@@ -45,17 +45,17 @@
 
 
  .standardref:hover{
-     color:dimgrey;
+     color:cornsilk;
  }
  .standardref:active{
-     color: bisque;
+     color:thistle;
  }
  .activeref, .activeref:hover{
     text-decoration: none;
-    color: dimgrey;
+    color: cornsilk;
  }
  .activeref:active{
-    color: bisque;
+    color: thistle;
  }
 .nolineref{
     text-decoration: none;
@@ -64,6 +64,11 @@
 
 .menu {
     background: rgb(80, 185, 80);
+    width: 100%;
+    height: 100px;
+}
+.menu-community{
+    background: rgb(191, 94, 216);
     width: 100%;
     height: 100px;
 }
@@ -89,7 +94,7 @@
 }
 .item
 {
-    height: 700px;
+    height: 900px;
 }
 .help {
     background: rgb(80, 185, 80);
@@ -104,6 +109,7 @@
 
 .font-community{
     font-family: "MyriadProItalic";
+    
 }
 
 @font-face {
