@@ -2,19 +2,19 @@
     padding: 0;
     margin: 0;
     border: 0;
-  }
-  *,*:before,*:after{
+}
+*,*:before,*:after{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  :focus,:active{outline: none;}
-  a:focus,a:active{outline:invert;}
-  
-  
-  nav,footer,header,aside{display: block; font-family: "MyriadProSemiBold"; font-size: 17px;}
-  
-  html,body{
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline:invert;}
+
+
+nav,footer,header,aside{display: block; font-family: "MyriadProSemiBold"; font-size: 17px;}
+
+html,body{
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -23,43 +23,43 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-  }
-  input,button,textarea{font-family:inherit;}
-  
-  input::-ms-clear{display: none;}
-  button{cursor: pointer;}
-  button::-moz-focus-inner {padding:0;border:0;}
-  a, a:visited{text-decoration:overline; color: #FFFFFF;}
-  a:hover{text-decoration:none;}
-  ul li{list-style: none;}
-  img{vertical-align: top; margin-top: 0px;}
-  
-  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+}
+input,button,textarea{font-family:inherit;}
 
- footer,header{
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration:overline; color: #FFFFFF;}
+a:hover{text-decoration:none;}
+ul li{list-style: none;}
+img{vertical-align: top; margin-top: 0px;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+footer,header{
     display: flex;
-	flex-direction:row;
+    flex-direction:row;
     justify-content: space-around;
- }
+}
 
 
 
- .standardref:hover{
-     color: gray;
- }
- .standardref:active{
-     color: #a8b0a6;
- }
- .activeref, .activeref:hover{
+.standardref:hover{
+    color: gray;
+}
+.standardref:active{
+    color: #a8b0a6;
+}
+.activeref, .activeref:hover{
     text-decoration: none;
     color: gray;
- }
- .activeref:active{
+}
+.activeref:active{
     color: #a8b0a6;
- }
+}
 .nolineref{
     text-decoration: none;
-    
+
 }
 
 .menu {
@@ -77,7 +77,7 @@
     margin-top: 27px;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 .logotype-photo{
     margin-bottom: 0px;
@@ -115,7 +115,7 @@
     background: linear-gradient(270deg, #009555 -6.12%, #00DC7D 28.33%, #FFFFFF 131.27%);;
     width: 100%;
     height: 300px;
-    
+
 }
 .help-community{
     background: linear-gradient(270deg, #9E14B5 -6.83%, #BF5ED8 23.69%, rgba(216, 103, 205, 0.853742) 68.73%, rgba(104, 94, 216, 0.72) 108.77%);
