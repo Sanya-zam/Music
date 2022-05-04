@@ -52,10 +52,10 @@
  }
  .activeref, .activeref:hover{
     text-decoration: none;
-    color: cornsilk;
+    color: gray;
  }
  .activeref:active{
-    color: thistle;
+    color: #a8b0a6;
  }
 .nolineref{
     text-decoration: none;
