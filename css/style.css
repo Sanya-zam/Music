@@ -85,6 +85,10 @@
     height: 70px;
     cursor: pointer;
 }
+.logotype-name{
+    font-family: "MyriadProBold";
+    font-size: 23px;
+}
 
 
 .searching{
