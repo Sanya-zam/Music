@@ -12,7 +12,7 @@
   a:focus,a:active{outline:invert;}
   
   
-  nav,footer,header,aside{display: block; font-family: "MyriadProBold"; font-size: 17px;}
+  nav,footer,header,aside{display: block; font-family: "MyriadProSemiBold"; font-size: 17px;}
   
   html,body{
     height: 100%;
@@ -32,7 +32,7 @@
   a, a:visited{text-decoration:overline; color: #FFFFFF;}
   a:hover{text-decoration:none;}
   ul li{list-style: none;}
-  img{vertical-align: top;}
+  img{vertical-align: top; margin-top: 0px;}
   
   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
@@ -74,14 +74,19 @@
 }
 
 .logotype{
-    margin-top: 0px;
+    margin-top: 27px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 10px; 
-    cursor: pointer;
+}
+.logotype-photo{
+    margin-top: -27px;
     width: 58px;
     height: 70px;
+    cursor: pointer;
 }
+
+
 .searching{
     width: 17px;
     height: 17px;
@@ -157,6 +162,15 @@
     src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
     url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
