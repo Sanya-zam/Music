@@ -137,10 +137,15 @@
     background: #000;
 }
 
+.top_name {
+    margin: 0px 0px 0px 0px;
+}
+
 .bottom {
     height: 200px;
     background: #000;
 }
+
 
 @font-face {
     font-family: "MyriadProBold";
