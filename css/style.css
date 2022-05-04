@@ -29,7 +29,7 @@
   input::-ms-clear{display: none;}
   button{cursor: pointer;}
   button::-moz-focus-inner {padding:0;border:0;}
-  a, a:visited{text-decoration:overline; color: black;}
+  a, a:visited{text-decoration:overline; color: #FFFFFF;}
   a:hover{text-decoration:none;}
   ul li{list-style: none;}
   img{vertical-align: top;}
@@ -45,10 +45,10 @@
 
 
  .standardref:hover{
-     color:cornsilk;
+     color: gray;
  }
  .standardref:active{
-     color:thistle;
+     color: #a8b0a6;
  }
  .activeref, .activeref:hover{
     text-decoration: none;
@@ -83,12 +83,12 @@
     height: 70px;
 }
 .searching{
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
 }
 
 .menu-block{
-    margin: 42px 0px 0px 0px;
+    margin: 27px 0px 0px 0px;
     padding-left: 0px;
     cursor: pointer;
 }
@@ -115,11 +115,22 @@
 .help-block{
     padding-top: 15px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .font-community{
     font-family: "MyriadProItalic";
-    
+
+}
+
+.top {
+    height: 74px;
+    background: #000;
+}
+
+.bottom {
+    height: 200px;
+    background: #000;
 }
 
 @font-face {
