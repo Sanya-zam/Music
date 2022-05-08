@@ -91,10 +91,37 @@ footer,header{
     font-size: 23px;
 }
 
+.search-block {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.search {
+    display: block;
+    font-family: inherit;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    margin: 15px 0px;
+
+}
 
 .searching{
     width: 17px;
     height: 17px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .menu-block{
